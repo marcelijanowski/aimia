@@ -1,0 +1,29 @@
+[{
+    "backgroundcolor" : "dark-orange",
+    "icon" : "ok",
+    "info" : "ABC"
+},
+{
+    "backgroundcolor" : "light-orange",
+    "icon" : "ok",
+    "info" : "DEF"
+},
+{
+    "backgroundcolor" : "dark-blue",
+    "icon" : "hand",
+    "info" : "GHI"
+},
+{
+    "backgroundcolor" : "light-blue",
+    "icon" : "hand",
+    "info" : "JKL"
+},
+{
+    "backgroundcolor" : "light-green",
+    "icon" : "dolar",
+    "info" : "MNO"
+}
+]
+
+
+

@@ -1,0 +1,93 @@
+/* Colors */
+@font-face {
+  font-family: "Novecentowide";
+  src: url('../fonts/Novecentowide-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+#wrapper {
+  width: 310px;
+  padding: 0 0 0 50px;
+}
+#wrapper .box {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  margin: 0 60px 30px 0;
+  float: left;
+}
+#wrapper .box span {
+  position: absolute;
+  bottom: 9px;
+  left: 6px;
+  font-family: 'Novecentowide,Arial';
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.infopanel {
+  display: block;
+  border-bottom: 1px solid #4a82a5;
+  border-top: 1px solid #4a82a5;
+  display: none;
+  overflow: hidden;
+  padding: 10px 24px 38px 24px;
+  margin: 0 0 30px 0;
+}
+.infopanel p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+  font-size: 12px;
+}
+h1 {
+  font-family: 'Novecentowide,Arial';
+  font-size: 18px;
+  color: #55777f;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 40px 0 30px 0;
+}
+.dark-orange {
+  background-color: #c64918;
+}
+.light-orange {
+  background-color: #cc6633;
+}
+.dark-blue {
+  background-color: #556a70;
+}
+.light-blue {
+  background-color: #55777f;
+}
+.light-green {
+  background-color: #68a03d;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 64px;
+  height: 45px;
+  vertical-align: text-top;
+  background-image: url("../img/icons.png");
+  background-position: 2px -15px;
+  background-repeat: no-repeat;
+  float: right;
+}
+.icon-ok {
+  background-position: 2px -15px;
+}
+.icon-hand {
+  background-position: -73px -18px;
+}
+.icon-dolar {
+  background-position: -149px -13px;
+}
+.info {
+  background-image: url("../img/info.png");
+  width: 11px;
+  height: 11px;
+  margin: 0 0 0 45px;
+  display: block;
+  float: right;
+  margin: 5px 0;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Sample Project</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+<body>
+<div id="wrapper">
+    <h1>
+        My Sample Project
+        <i class="info"></i>
+    </h1>
+    <div class="infopanel">
+        <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+        <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Sem nibh id elit. </p>
+    </div>
+    <div id="boxlist"></div>
+    <script id="iconTemplate" type="text/template">
+        <div class="box <%= backgroundcolor %>">
+            <i class="icon-<%= icon %>"></i>
+            <span><%= info %></span>
+        </div>
+
+    </script>
+</div>
+
+<script data-main="js/app.js" src="js/vendors/require/require.js"></script>
+</body>
+</html>
